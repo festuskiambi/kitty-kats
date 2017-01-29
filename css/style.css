@@ -15,7 +15,7 @@ body{
    position: relative;
    
 }
-ul{
+#menu_items ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,14 +23,38 @@ ul{
     position: absolute;
     top: 25%;
 }
-#menu_items li{
+#menu_items{
+    float: left;
+}
+#menu_items li {
     float: left;
     display: block;
-    color: #878787;
-    text-align: center;
     padding: 16px;
-    text-decoration: none;
+}    
+#menu_items li a{
+    text-decoration: none; 
     font-family: "Droid Serif";
     font-style: normal;
     font-weight: bold;   
+    color: #878787;
 }
+#social_media {
+    float: right;
+   }
+#social_media li {
+    float: right;
+    padding: 16px;
+   }
+#social_media ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    overflow: hidden;  
+}
+#social_media img{
+    height: 50px;
+    width:  50px;
+    
+    
+}
+  
