@@ -75,9 +75,9 @@ body{
    
 }
 #slider_textbox hr{
-    width: 105px;
+    width: 140px;
 }
-#slider_textbox h2{
+#slider_textbox h1{
    padding-top: 100px; 
    text-align: center
 }
@@ -85,6 +85,7 @@ body{
     margin-left: 40px;
     margin-right: 40px;
     text-align:left;
+    font-size: 25px;
 }
 #my_button{
     position: absolute;
@@ -97,6 +98,22 @@ body{
 	text-decoration:none;
     left: 25%;
     font-weight:bold;	
+}
+.recent_kitty_cats{
+    width: 100%;
+    height: inherit;
+}
+.recent_kitty_cats h1{
+   padding-top: 2px; 
+   text-align: center
+    
+}
+.recent_kitty_cats hr{
+   width: 200px; 
+}
+#cat_row{
+    width: 100%;
+    height: 300px:
 }
 
     
