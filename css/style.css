@@ -116,7 +116,7 @@ body{
 #cat_row{
     width: 100%;
     height: 330px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .cat_img{
@@ -149,6 +149,9 @@ body{
 }
 #kittenCounter_img{
    background-image: url('../images/item-cat-2.jpeg'); 
+}
+#feline_img{
+   background-image: url('../images/item-cat-3.jpeg');  
 }
 
     
