@@ -20,29 +20,42 @@ body{
     padding: 0;
     overflow: hidden;
     position: absolute;
-    top: 25%;
+    
+    
 }
 #menu_items{
     float: left;
 }
 #menu_items li {
-    float: left;
     display: block;
-    padding: 16px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+    color: #878787;  
+    
 }    
 #menu_items li a{
     text-decoration: none; 
     font-family: "Droid Serif";
     font-style: normal;
-    font-weight: bold;   
-    color: #878787;
+    font-weight: bold;
+    padding-top: 30px;
+    color:#878787;
+         
 }
+body.home a.hom,
+body.contact a.contact{
+ color: #FFFFFF;
+  border-top: 10px solid #E00000;  
+}
+
 #social_media {
     float: right;
    }
 #social_media li {
     float: right;
     padding: 16px;
+    
    }
 #social_media ul{
     list-style-type: none;
